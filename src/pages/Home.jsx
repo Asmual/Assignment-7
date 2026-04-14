@@ -30,22 +30,18 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#f8faf9]">
-      <Navbar />
+      <Navbar />  
       
       <Banner friends={friends} />
 
-      <section className="max-w-7xl mx-auto px-6 py-16">
+      <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="flex justify-between items-center mb-10">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Your Friends</h2>
-            <p className="text-gray-500 mt-1">Manage and track your connections</p>
+            <h2 className="text-3xl font-bold text-gray-600 ml-2.5">Your Friends</h2>
           </div>
-          <span className="bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-100 font-semibold text-[#234e44]">
-            {friends.length} Total
-          </span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {friends.map(friend => (
             <FriendCard key={friend.id} friend={friend} />
           ))}

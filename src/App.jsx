@@ -4,6 +4,7 @@ import Timeline from "./pages/Timeline";
 import Stats from "./pages/Stats";
 import NotFound from "./pages/NotFound";
 import FriendDetail from "./pages/FriendDetail";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="*" element={<NotFound />} />
+     
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
