@@ -1,1 +1,146 @@
-[]  
+[
+  {
+    "id": 1,
+    "name": "Rahim Uddin",
+    "picture": "/friends/p1.jpg",
+    "email": "rahim.uddin@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["close friend"],
+    "bio": "Childhood friend from Chittagong. We love to talk about cricket and travel.",
+    "goal": 7,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Karim Hossain",
+    "picture": "/friends/p2.jpg",
+    "email": "karim.hossain@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Senior colleague who guided me through my first job. Very supportive person.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 3,
+    "name": "Faisal Ahmed",
+    "picture": "/friends/p3.jpg",
+    "email": "faisal.ahmed@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["university"],
+    "bio": "Met at BUET during final year project. Love going on road trips together.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Rasel Mahmud",
+    "picture": "/friends/p4.jpg",
+    "email": "rasel.mahmud@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "My cousin and best friend. We talk every week about life and future plans.",
+    "goal": 7,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 5,
+    "name": "Nusrat Jahan",
+    "picture": "/friends/p5.jpg",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["college", "work"],
+    "bio": "Friend from college who now works in the same industry. Great career advisor.",
+    "goal": 14,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 6,
+    "name": "Shakil Islam",
+    "picture": "/friends/p6.jpg",
+    "email": "shakil.islam@outlook.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["hobby", "sports"],
+    "bio": "Football teammate from local club. We train together every weekend.",
+    "goal": 10,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 7,
+    "name": "Mahfuza Akter",
+    "picture": "/friends/p7.jpg",
+    "email": "mahfuza.akter@gmail.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["family", "close friend"],
+    "bio": "My sister's best friend who became my close friend too. Very kind person.",
+    "goal": 7,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 8,
+    "name": "Tanvir Hassan",
+    "picture": "/friends/p8.jpg",
+    "email": "tanvir.hassan@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["work", "college"],
+    "bio": "Old university friend who moved to Dhaka. We keep losing touch but reconnect.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 9,
+    "name": "Sabbir Rahman",
+    "picture": "/friends/p9.jpg",
+    "email": "sabbir.rahman@gmail.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["work", "hobby"],
+    "bio": "Colleague turned friend. We share the same passion for photography.",
+    "goal": 7,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 10,
+    "name": "Lamia Sultana",
+    "picture": "/friends/p10.jpg",
+    "email": "lamia.sultana@gmail.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["university", "close friend"],
+    "bio": "Best friend from university. Always there for me in tough times.",
+    "goal": 14,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 11,
+    "name": "Jahidul Islam",
+    "picture": "/friends/p11.jpg",
+    "email": "jahidul.islam@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["college", "sports"],
+    "bio": "Cricket team captain. We practice together and discuss match strategies.",
+    "goal": 7,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 12,
+    "name": "Roksana Begum",
+    "picture": "/friends/p12.jpg",
+    "email": "roksana.begum@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["family", "mentor"],
+    "bio": "My aunt who is also my career mentor. Need to call her more often.",
+    "goal": 30,
+    "next_due_date": "2025-07-01"
+  }
+]
