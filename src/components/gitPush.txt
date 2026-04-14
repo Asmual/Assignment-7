@@ -1,7 +1,7 @@
 echo "# Assignment-7"
 git init
 git add .
-git commit -m "first commit"
+git commit -m "Banner Section complate & create components file"
 git branch -M main
 git remote add origin https://github.com/Asmual/Assignment-7.git
 git push -u origin main
