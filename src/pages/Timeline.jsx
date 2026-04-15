@@ -31,7 +31,7 @@ export default function Timeline() {
           <select
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            className="bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-600 shadow-sm w-64 focus:outline-none"
+            className="appearance-none bg-white border border-gray-200 rounded-xl px-4 py-3 pr-10 text-sm text-gray-700 shadow-sm w-64 focus:outline-none bg-[url('https://cdn-icons-png.flaticon.com/512/60/60995.png')] bg-size-[12px] bg-position-[right_15px_center] bg-no-repeat"
           >
             <option value="All">Filter timeline</option>
             <option value="Call">Call</option>

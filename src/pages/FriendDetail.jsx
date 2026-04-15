@@ -56,7 +56,6 @@ const FriendDetail = () => {
     <div className="bg-slate-50 min-h-screen pt-12 pb-20">
       <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-[320px_1fr] gap-8">
 
-        {/* Left Column */}
         <aside className="space-y-6">
           <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm text-center">
             <img
@@ -93,10 +92,9 @@ const FriendDetail = () => {
           </div>
         </aside>
 
-        {/* Right Column */}
         <main className="space-y-6">
 
-          {/* Stats Cards */}
+
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm text-center">
               <h2 className="text-3xl font-black text-[#234e44] mb-3">{friend.days_since_contact}</h2>
@@ -112,7 +110,6 @@ const FriendDetail = () => {
             </div>
           </div>
 
-          {/* Relationship Goal */}
           <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm flex items-center justify-between">
             <div>
               <h3 className="text-lg font-bold text-gray-700 mb-1">Relationship Goal</h3>
@@ -123,7 +120,6 @@ const FriendDetail = () => {
             </button>
           </div>
 
-          {/* Quick Check-In */}
           <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
             <h3 className="text-lg font-bold text-gray-900 mb-6">Quick Check-In</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -151,7 +147,6 @@ const FriendDetail = () => {
             </div>
           </div>
 
-          {/* Recent Interactions */}
           <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-lg font-bold text-gray-900">Recent Interactions</h3>

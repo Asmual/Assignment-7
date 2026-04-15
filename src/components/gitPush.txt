@@ -1,7 +1,7 @@
 echo "# Assignment-7"
 git init
 git add .
-git commit -m "Button Functionality & Timeline Page Complate"
+git commit -m "Stats page Build & PieChart added"
 git branch -M main
 git remote add origin https://github.com/Asmual/Assignment-7.git
 git push -u origin main
