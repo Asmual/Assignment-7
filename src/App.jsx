@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -10,10 +11,9 @@ import FriendDetail from "./pages/FriendDetail";
 function App() {
   return (
     <BrowserRouter>
+      <Toaster position="top-right" />
       <div className="min-h-screen flex flex-col">
-
-        <Navbar /> 
-        
+        <Navbar />
         <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -23,7 +23,6 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
-
         <Footer />
       </div>
     </BrowserRouter>
