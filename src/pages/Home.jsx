@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#f8faf9]">
-      <Navbar />  
+
       
       <Banner friends={friends} />
 

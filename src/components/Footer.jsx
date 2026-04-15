@@ -6,12 +6,10 @@ const Footer = () => {
       <div className="max-w-5xl mx-auto text-center">
 
         <h2 className="text-5xl font-bold mb-4">KeenKeeper</h2>
-        
 
         <p className="text-gray-300 text-md mb-10 mx-auto leading-relaxed">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
-
 
         <h3 className="text-xl font-semibold mb-6">Social Links</h3>
 
